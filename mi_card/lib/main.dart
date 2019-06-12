@@ -43,7 +43,6 @@ class MyApp extends StatelessWidget {
                 height: 20.0,
                 child: Divider(
                   color: Colors.teal.shade100,
-
                 ),
               ),
               Card(
@@ -74,18 +73,19 @@ class MyApp extends StatelessWidget {
                 ),
                 color: Colors.white,
                 child: ListTile(
-                    leading: Icon(
-                      Icons.email,
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal.shade900,
+                  ),
+                  title: Text(
+                    'akshar.patel.47@gmail.com',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontFamily: 'Source Sans Pro',
                       color: Colors.teal.shade900,
                     ),
-                    title: Text(
-                      'akshar.patel.47@gmail.com',
-                      style: TextStyle(
-                        fontSize: 20.0,
-                        fontFamily: 'Source Sans Pro',
-                        color: Colors.teal.shade900,
-                      ),
-                    )),
+                  ),
+                ),
               )
             ],
           ),
