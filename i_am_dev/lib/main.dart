@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "I Am Dev",
       theme: ThemeData(
-        primaryColor: Colors.indigo
+        primaryColor: Colors.indigo,
       ),
       home: Scaffold(
         appBar: AppBar(
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(32.0),
             child: Image(image: AssetImage('images/dev.png')),
-          )
+          ),
         ),
         backgroundColor: Colors.indigo[100],
       ),
