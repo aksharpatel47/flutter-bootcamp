@@ -1,5 +1,3 @@
-//TODO: Add your imports here.
-
 const List<String> currenciesList = [
   'AUD',
   'BRL',
@@ -29,10 +27,3 @@ const List<String> cryptoList = [
   'ETH',
   'LTC',
 ];
-
-const bitcoinAverageURL =
-    'https://apiv2.bitcoinaverage.com/indices/global/ticker';
-
-class CoinData {
-  //TODO: Create your getCoinData() method here.
-}
